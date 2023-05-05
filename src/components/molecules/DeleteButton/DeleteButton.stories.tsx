@@ -13,7 +13,4 @@ type Story = StoryObj<typeof DeleteButton>
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Primary: Story = {
-  args: {
-    children: 'delete',
-  },
 }

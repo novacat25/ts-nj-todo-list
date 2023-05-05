@@ -1,11 +1,24 @@
 import { Button } from '@/components/atoms/Button/Button'
+import { Spacer } from '@/components/atoms/Spacer'
+import { DeleteButton } from '@/components/molecules/DeleteButton'
+import { Checkbox } from '@mui/material'
 import React from 'react'
 
 const HomePage = () => {
   return (
     <>
+      {/* Title */}
       To do list
-      <Button>test</Button>
+      <Spacer size={10} />
+      {/* Add Tasks */}
+      Add task
+      <Button variant="contained" width="50px">
+        Add
+      </Button>
+      <Spacer size={10} />
+      {/* To do lists */}
+      <Checkbox />
+      Task 1(Task & Day)<DeleteButton />
     </>
   )
 }
