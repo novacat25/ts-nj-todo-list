@@ -12,7 +12,7 @@ const HomePage = () => {
       <Spacer size={10} />
       {/* Add Tasks */}
       Add task
-      <TextField variant="outlined" />
+      <TextField variant="standard" />
       <Button variant="contained" sx={{width: '50px'}}>
         Add
       </Button>
