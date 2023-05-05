@@ -1,7 +1,7 @@
 import { Button } from 'src/components/atoms/Button/Button'
 import { Spacer } from 'src/components/atoms/Spacer'
 import { DeleteButton } from 'src/components/molecules/DeleteButton'
-import { Checkbox } from '@mui/material'
+import { Checkbox, TextField } from '@mui/material'
 import React from 'react'
 
 const HomePage = () => {
@@ -12,7 +12,8 @@ const HomePage = () => {
       <Spacer size={10} />
       {/* Add Tasks */}
       Add task
-      <Button variant="contained" width="50px">
+      <TextField variant="outlined" />
+      <Button variant="contained" sx={{width: '50px'}}>
         Add
       </Button>
       <Spacer size={10} />
