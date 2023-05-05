@@ -1,8 +1,12 @@
+import { Button } from '@/components/atoms/Button/Button'
 import React from 'react'
 
 const HomePage = () => {
   return (
-    <div>Hello dude</div>
+    <>
+      To do list
+      <Button>test</Button>
+    </>
   )
 }
 
