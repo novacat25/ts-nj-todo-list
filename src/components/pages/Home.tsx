@@ -8,7 +8,7 @@ import { AddTodo } from 'src/components/organisms/AddTodo'
 
 export const Home = () => {
   return (
-    <Paper sx={{ p: 2 }}>g
+    <Paper sx={{ p: 2 }}>
       <TitleBar text='To do list' />
       <Spacer size={30} />
       <AddTodo />
