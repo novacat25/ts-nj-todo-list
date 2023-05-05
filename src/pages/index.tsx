@@ -1,6 +1,6 @@
-import { Button } from '@/components/atoms/Button/Button'
-import { Spacer } from '@/components/atoms/Spacer'
-import { DeleteButton } from '@/components/molecules/DeleteButton'
+import { Button } from 'src/components/atoms/Button/Button'
+import { Spacer } from 'src/components/atoms/Spacer'
+import { DeleteButton } from 'src/components/molecules/DeleteButton'
 import { Checkbox } from '@mui/material'
 import React from 'react'
 

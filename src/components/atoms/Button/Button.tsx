@@ -1,4 +1,4 @@
-import { colors } from '@/styles/colors'
+import { colors } from 'src/styles/colors'
 import { Button as MButton } from '@mui/material'
 
 type ButtonProps = {

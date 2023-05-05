@@ -1,6 +1,6 @@
 import React from 'react'
-import { Button } from '@/components/atoms/Button/Button'
-import { colors } from '@/styles/colors'
+import { Button } from 'src/components/atoms/Button/Button'
+import { colors } from 'src/styles/colors'
 
 export const DeleteButton = () => {
   return (
